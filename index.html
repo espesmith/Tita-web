@@ -2,9 +2,47 @@
 <html>
 <head>
     <title>Tita-web</title>
+    <style>
+        body {
+            background-color: #f0f8ff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 100px;
+        }
+        h1 {
+            color: #6a0dad;
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 20px;
+            margin-bottom: 40px;
+        }
+        button {
+            background-color: #6a0dad;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        button:hover {
+            background-color: #4b0082;
+            transform: scale(1.1);
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello from Tita-web! 👋</h1>
-    <p>This is my website hosted on GitHub Pages.</p>
+    <h1>🚀 Welcome to Tita-web!</h1>
+    <p>Click the button to see some magic happen 🎉</p>
+    <button onclick="showMessage()">Click Me!</button>
+
+    <script>
+        function showMessage() {
+            alert("🎊 Success! Your button works and your website is live!");
+        }
+    </script>
 </body>
 </html>
