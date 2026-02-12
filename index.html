@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
 <head>
     <title>Tita-web</title>
@@ -28,6 +27,7 @@
             border-radius: 10px;
             cursor: pointer;
             transition: all 0.3s ease;
+            margin: 10px;
         }
         button:hover {
             background-color: #4b0082;
@@ -37,12 +37,17 @@
 </head>
 <body>
     <h1>🚀 Welcome to Tita-web!</h1>
-    <p>Click the button to see some magic happen 🎉</p>
-    <button onclick="showMessage()">Click Me!</button>
+    <p>Click the buttons to see some magic happen 🎉</p>
+    
+    <button onclick="showMessage1()">Click Me! 🎈</button>
+    <button onclick="showMessage2()">Click Me Too! 🎉</button>
 
     <script>
-        function showMessage() {
-            alert("🎊 Success! Your button works and your website is live!");
+        function showMessage1() {
+            alert("🎊 Success! The first button works!");
+        }
+        function showMessage2() {
+            alert("✨ Amazing! The second button works too!");
         }
     </script>
 </body>
